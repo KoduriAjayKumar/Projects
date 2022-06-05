@@ -25,11 +25,11 @@ try:
     #Opening the connection from  "smtp.gmail.com"  server and  port 587    
     server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
     server.ehlo()
-    # Another way of securing the connection via TLS  by  ".starttls()"  method  TLS/SSL.
+    #Another way of securing the connection via TLS  by  ".starttls()"  method  TLS/SSL.
     #server.starttls()
-    # SSL connection  "smtplib.SMTP_SSL("smpt.gmail.com",465) and use  465 port"
+    #SSL connection  "smtplib.SMTP_SSL("smpt.gmail.com",465) and use  465 port"
 
-    #Authenticating with Gmail.
+    #Authenticating with email.
     server.login(sender_email, password)
     print("Login success")
     #Sending the gmail.
