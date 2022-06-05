@@ -20,7 +20,7 @@ try:
     #server.starttls()
     # SSL connection  "smtplib.SMTP_SSL("smpt.gmail.com",465) and use  465 port"
 
-    #Authenticating with Gmail.
+    #Authenticating with email.
     server.login(sender_email, password)
     print("Login success")
     #Sending the gmail.
