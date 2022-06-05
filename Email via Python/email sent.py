@@ -1,3 +1,7 @@
+#Sending email with Python through an email protocol like SMTP (Simple Mail Transfer Protocol).
+#SMTP is an application level protocol used to communicate with servers from external services, like an email client on phone.
+#Note : Use App passwords for gmail users as code works for only for less secure apps.
+
 import smtplib
 sender_email =  input(str("Please enter your email: "))
 print("Note: please enter App password only (less secure apps) for gmail users")
