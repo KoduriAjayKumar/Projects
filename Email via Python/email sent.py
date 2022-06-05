@@ -18,7 +18,7 @@ try:
     server.ehlo()
     # Another way of securing the connection via TLS  by  ".starttls()"  method  TLS/SSL.
     #server.starttls()
-    # SSL connection  "smtplib.SMTP_SSL("smpt.gmail.com",465) and use  465 port"
+    #SSL connection  "smtplib.SMTP_SSL("smpt.gmail.com",465) and use  465 port"
 
     #Authenticating with email.
     server.login(sender_email, password)
