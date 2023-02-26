@@ -1,4 +1,8 @@
-'''pattern1=  ^([a-z\d][a-z\d\.\-_]+[a-z\d]){1,30}@[a-z\d\-]{1,20}\.[a-z]{1,10}(\.[a-z]{1,10})?
+'''Python Project on Email Authentication System using File Handling. 
+In this project there will be a menu consist of 3 functions Signup function, Login function,  Forgot Password function. 
+To store the Email address and Password permanently we will use a Data.txt file.
+
+pattern1=  ^([a-z\d][a-z\d\.\-_]+[a-z\d]){1,30}@[a-z\d\-]{1,20}\.[a-z]{1,10}(\.[a-z]{1,10})?
 pattern2=  ^([a-z\d][a-z\d\.]+[a-z\d]){1,30}@(gmail|yahoo|hotmail){1,20}\.[a-z]{1,10}(\.[a-z]{1,10})?$
 pattern3=  ^([a-z]+\.?[a-z\d]+){1,30}@(gmail|yahoo|hotmail){1,20}\.[a-z]{1,10}(\.[a-z]{1,10})?$
 pattern4= ^([a-z]+\.?[a-z\d]+){1,30}@[a-z]{1,20}\.[a-z]{1,10}(\.[a-z]{1,10})?$'''
