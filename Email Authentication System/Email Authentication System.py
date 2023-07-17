@@ -1,3 +1,5 @@
+# Python 3.7.8
+# regex==2023.6.3
 '''Python Project on Email Authentication System using File Handling. 
 In this project there will be a menu consist of 3 functions Signup function, Login function,  Forgot Password function. 
 To store the Email address and Password permanently we will use a Data.txt file.
