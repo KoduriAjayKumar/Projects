@@ -3,13 +3,15 @@
 #joblib==1.2.0
 #pandas==1.3.5
 
-# Machine Learning Classification Algorithm : Support Vector Machine(SVM)
-# Prediction of different Electrical Appliances (of Home amd industries) power consumption is risky or not.
-# In industries and homes there are lot of Electrical Appliances/Machines, but if we have a problem with certain electrical appliance,
-# we don't know the power consumption of that electrical appliance. They monitors all electrical appliances in terms of units.
-# But by using M.L. algorithm we can able to classify by analysing different parameters( current, voltage, power) to make decision
-# whether the electrical appliance is Risky, Medium, Normal, Noload.
-# The data is acquired with the help of Raspberry Pi (series of single-board computers) and current, voltage, power sensors.
+'''
+Smart Power Consumption Analysis and Classification for Electrical Appliances in Homes and Industries Using SVM Algorithm.
+Machine Learning Classification Algorithm : Support Vector Machine(SVM)
+Prediction of Power consumption for different Electrical Appliances in Home and industries is  risky or not.
+In industries and homes there are lot of Electrical Appliances/Machines, but if we have a problem with certain electrical appliance,
+we don't know the power consumption of that electrical appliance. They monitors all electrical appliances in terms of units.
+But by using ML algorithm we can able to classify by analyzing different parameters( current, voltage, power) to make decision whether the electrical appliance is Risky, Medium, Normal, No-load.
+The data is acquired with the help of Raspberry Pi (series of single-board computers) and current, voltage, power sensors
+'''
 
 from sklearn import svm
 from sklearn.model_selection import train_test_split
