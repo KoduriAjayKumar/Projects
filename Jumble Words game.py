@@ -1,6 +1,10 @@
 #Jumbled words game : guess the correct word 
+'''
+This is a simple two-player Jumbled Words game. Players take turns guessing the correct word out of a randomly chosen word that has been jumbled.
+Each correct guess earns the player a point, and the game continues until a player decides to exit.The game continues until one of the players chooses to exit,
+and then the final scores are displayed, determining the winner based on the number of correct guesses.
+'''
 
-#Selecting a word 
 import random
 def choose():
     words = [ "pronunciation","ajaykumar","phenomenon","computer","arrays","temperature","converter","migration","binary","jupyter","anaconda","transcription","transaction","microsoft","instagram","reverse","linear","autonomous","argument","algorithm","development","programming","software","interaction","mathematimatics","environment","hardware","application","technology","intelligence"]
