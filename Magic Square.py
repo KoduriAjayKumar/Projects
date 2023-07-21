@@ -1,4 +1,9 @@
-
+'''
+This Python project generates a magic square of odd order (n x n) using the Siamese method. 
+A magic square is a square matrix in which the sum of each row, column, and diagonal is the same constant value.
+The user is prompted to enter an odd number 'n' for the size of the matrix, and the program generates the magic square,
+displaying the matrix and the constant sum of rows/columns/diagonals.
+'''
 def magic_sqaure(n):
     MagicSquare = []
     for i in range(n):
