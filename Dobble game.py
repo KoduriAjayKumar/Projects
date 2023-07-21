@@ -1,3 +1,10 @@
+'''
+Dobble game is a simple interactive game where two random lists of symbols are generated, and the player needs to spot the same symbol appearing in both lists.
+The player's goal is to identify the common symbol correctly to win the game, the player can choose to continue playing or exit the game.
+'''
+
+
+
 import string 
 import random
 
